@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+.quoteBox {
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto;
+    
+}
+
+.titel {
+    font-style: normal;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: purple;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: normal;
+    border: double;
+}
+
+
+.text {
+    width: 100%;
+    
+
+    
+}
+
+.content-text {
+    color: rgb(10, 10, 10);
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .11rem;
+    word-spacing: .2rem;
+    text-shadow: 4px 4px 8px rgb(214, 58, 19);
+    padding: 10px;
+    border-radius: 39px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.33) 100%);
+    height: 120px;
+    
+}
+
+
+
+.content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button {
+    margin-top: 2rem;
+    font-family: cursive;
+    font-size: 1rem;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #1a237e, #00e5ff, black);
+    color: azure;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 4px 15px 15px #8F9779;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.5);
+    background: linear-gradient(to right, #228B22 , #5bbc51 , #c2ffb0 );
+    color: black;
+    font-size: .5rem;
+
+}
+
+
+
+.footer-image {
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer-text {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+    color: white;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.footer-text .footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    font-size: 1.5rem;
+    background-image: radial-gradient(circle farthest-corner at center, #00E5FF, #000000);
+    border: .1rem solid black;
+    border-radius: 25px;
+    height: 70px;
+    margin-top: 5rem;
+    
+}
+
+@media (min-width: 350px) {
+    .titel {
+        font-family: monospace;
+    }
+
+    .content-text{
+        display: flex;
+        margin-right: 1.2rem;
+        font-size: 1rem;
+        font-family: monospace;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        margin-top: 3rem;
+        font-family: monospace;
+    }
+
+    .footer-text .footers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10rem;
+        font-size: 1rem;
+        font-family: monospace;
+    }
+}
+
+@media (min-width: 500px) {
+    .titel {
+        padding: 1rem;
+        color: #FFF;
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .content-text{
+        display: flex;
+        font-size: 1.1rem;
+        margin-left: -1rem;
+        width: 110%;
+        padding: 0;
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        font-family: monospace;
+    }
+}
+
+@media (min-width: 1000px) {
+    .titel {
+        margin-top: -.3rem;
+        color: #3ac51e;
+        font-weight: 1000;
+        
+    }
+
+    .content-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin-top: -3rem;
+        margin-left: -2.5rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        height: 170px;
+        font-family: cursive;
+    }
+
+    .button {
+        font-size: 1.2rem;
+    }
+
+    .button:hover {
+        font-size: 1.2rem;
+        transform: scale(1.1);
+    }
+
+    .footer-text .footers {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .titel {
+        font-size: 3rem;
+        margin-top: 1rem;
+        color: #c51e9b;
+        font-weight: 1000;
+        
+    }
+
+    .content-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin-top: -3rem;
+        margin-left: -2.5rem;
+        font-size: 1.5rem;
+        border-radius: 5rem;
+        height: 200px;
+        font-family: cursive;
+    }
+
+    .button {
+        
+        font-size: 1.5rem;
+    }
+
+    .button:hover {
+        transform: scale(2);
+        font-size: 1rem;
+    }
+
+    .footer-text .footers{
+        margin-bottom: 1rem;
+    }
+}
+
